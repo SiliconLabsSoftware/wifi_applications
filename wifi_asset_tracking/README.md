@@ -1,9 +1,8 @@
 # Wi-Fi - Asset Tracking #
 
-![Type badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=Type&query=type&color=green)
-![Technology badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=Technology&query=technology&color=green)
-![License badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=License&query=license&color=green)
-![SDK badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=SDK&query=sdk&color=green)
+![Technology badge](https://img.shields.io/badge/Technology-WiFi-green)
+![License badge](https://img.shields.io/badge/License-Zlib-green)
+![SDK badge](https://img.shields.io/badge/SDK-v2024.12.0-green)
 [![Required board](https://img.shields.io/badge/Sparkfun-GPS/GNSS%20Magnetic%20Mount%20Antenna-green)](https://www.sparkfun.com/products/14986)
 [![Required board](https://img.shields.io/badge/Sparkfun-6%20Degrees%20of%20Freedom%20Breakout-green)](https://www.sparkfun.com/products/22397)
 [![Required board](https://img.shields.io/badge/Sparkfun-GNSS%20Receiver%20Breakout-green)](https://www.sparkfun.com/products/18037)
@@ -11,6 +10,9 @@
 ![Build badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_build_status.json)
 ![Flash badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=Flash&query=flash&color=blue)
 ![RAM badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/wifi_applications/wifi_asset_tracking_common.json&label=RAM&query=ram&color=blue)
+
+[![Type badge](https://img.shields.io/badge/Smart%20Buildings-salmon)](https://siliconlabs-massmarket.github.io/repository-catalog/#applications-list?filter=Smart%20Buildings)
+
 ## Purpose-Scope ##
 
 This application demonstrates how to configure the SiWG917 module as an Azure device endpoint and how to establish a connection with Azure IoT Hub. This project contains the development of a Wi-Fi tracker application on the SiWG917-PK6031A, that will be connected to Wi-Fi access point using WLAN APIs provided by the WiSeConnect 3 SDK. Communicates with Azure IoT Hub based on the configurations provided by the developer through the JSON messages containig the following fields.
